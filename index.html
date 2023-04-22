@@ -11,7 +11,7 @@
   <meta name="theme-color" content="#FF0000">
 <meta property="og:title" content="Happy Birthday To You!">
 <meta property="og:description" content="God always blesses genuine, humble and kind people like you. And today, you’re likely to get double the blessings since it’s your Birthday! May all your birthday wishes come true!">
-<meta property="og:image" content="http://hbdy.github.io/img/image.jpg">
+<meta property="og:image" content="http://djzmate.github.io/img/image.jpg">
 <meta property="og:url" content="http://djzmate.github.io">
 <meta name="twitter:title" content="Happy Birthday To You!">
 <meta name="twitter:description" content="God always blesses genuine, humble and kind people like you. And today, you’re likely to get double the blessings since it’s your Birthday! May all your birthday wishes come true!">
@@ -69,13 +69,13 @@
         </iframe>-->
     <div class="container">
       <div class="left">
-        <input type="text" id="nameinput" placeholder="Birthday Girl/Boy name!" />
+        <input type="text" id="nameinput" placeholder="寿星名字!" />
         <input
           type="text"
           id="messageinput"
-          placeholder="Input message here!"
+          placeholder="在这里留言!"
         />
-         <input type="text" id="ynameinput" placeholder="Enter Your name here!" />
+         <input type="text" id="ynameinput" placeholder="确认你的名字!" />
         <input class="btn" type="button" value="Get url" onclick="getUrl();" />
         <p id="cipheroutput"></p>
         <input
@@ -97,7 +97,7 @@
         const cipherMessage = rot13(message);
         const cipheryName = rot13(yname);
 
-        birthdayUrl =`https://djzmate.github.io/index.1.html?nm=${cipherName}&msg=${cipherMessage}&ynm=${cipheryName}`;
+        birthdayUrl =`https://djzmate.github.io/index.1.html´;
 
         document.querySelector("#cipheroutput").textContent = birthdayUrl;
         document.querySelector("#preview").href = birthdayUrl;
