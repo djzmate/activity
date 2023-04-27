@@ -2,13 +2,17 @@
 <head>
    <style type="text/css">
      
-     a{font-size:300%}
+     a{font-size:100%}
     body
      {background-image:url('https://djzmate.github.io/first/c2a9bce0c4576259416bcb831c9ce6d6.jpg');
 background-size: 100%;
 background-repeat: no-repeat;}
   </style>
   </head>
+  <audio controls loop hidden="true" autoplay>
+
+  <source src="https://djzmate.github.io/teacher/crule summer.mp3" type="audio/ogg">
+    </audio>
   <body>
   <h1 style="color:yellow;text-align:center">癸卵四目，良辰吉日，作序以贺
 瑜者，白玉无瑕也，人如是，肌若
